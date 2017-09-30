@@ -4,12 +4,12 @@ Canvas based Angular 2 Image Cropper that supports fixed and freeform resizing
 
 ## Installation
 
-#### 1.) Install the package or add it to your angular 2 dependencies
+##### 1.) Install the package or add it to your angular 2 dependencies
 ```
   npm install ng2-canvas-image-cropper
 ```
 
-#### 2.) Import the Image Cropper module in your `app.module.ts` file
+##### 2.) Import the Image Cropper module in your `app.module.ts` file
 
 ```typescript
 import { ImageCropperModule } from '../image-cropper/image-cropper.module';
@@ -33,7 +33,7 @@ export class AppModule { }
 
 ## Example Usage
 
-#### Example HTML
+##### Example HTML
 ```html
 <image-cropper [inputImage] = "imageData" #imageCropper></image-cropper>
 
@@ -45,8 +45,8 @@ export class AppModule { }
 
 ```
 
-#### Reading file input and passing it to the cropper module
-##### `app.component.ts` 
+##### Reading file input and passing it to the cropper module
+###### `app.component.ts` 
 ```typescript
 import { Component } from '@angular/core';
 
@@ -80,7 +80,7 @@ export class AppComponent {
 ```
 
 
-#### Getting the cropped image
+##### Getting the cropped image
 ```typescript
 onSubmitImage(){
 
@@ -106,3 +106,9 @@ onSubmitImage(){
 
 ## Customizing the cropper
 The cropper comes with a handful of settings you can customize to change the appearance and performance of cropper
+
+```typescript
+  this.imageCropper.crop.outlineColor = "rgba(130, 180, 255, 0.9)";
+  this.imageCropper.crop.shadeOutColor = 'rgba(0,0,0,0.75)';
+  this.imageCropper.crop.isFixedResize = true;
+```
