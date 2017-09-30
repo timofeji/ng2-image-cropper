@@ -1,7 +1,7 @@
 import { Component, ElementRef, Input, ViewChild, OnInit, SimpleChanges } from '@angular/core';
 
 @Component({
-  selector: 'app-image-cropper',
+  selector: 'image-cropper',
   templateUrl: './image-cropper.component.html',
   styleUrls: ['./image-cropper.component.css']
 })

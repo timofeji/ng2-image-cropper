@@ -1,0 +1,25 @@
+{
+  "name": "ng2-canvas-image-cropper",
+  "version": "0.5.0",
+  "description": "Angular 2 image cropper ",
+  "main": "image-cropper.module.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teemozy/ng2-image-cropper.git"
+  },
+  "keywords": [
+    "ng2",
+    "Angular2",
+    "image",
+    "cropper"
+  ],
+  "author": "Timofej Jermolaev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teemozy/ng2-image-cropper/issues"
+  },
+  "homepage": "https://github.com/teemozy/ng2-image-cropper#readme"
+}
