@@ -12,7 +12,7 @@ Canvas based Angular 2 Image Cropper that supports fixed and freeform resizing
 ##### 2.) Import the Image Cropper module in your `app.module.ts` file
 
 ```typescript
-import { ImageCropperModule } from 'ng2-canvas-image-cropper';
+import { ImageCropperModule } from 'ng2-canvas-image-cropper/image-cropper.module;';
 
 @NgModule({
   declarations: [
