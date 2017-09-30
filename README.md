@@ -107,8 +107,14 @@ onSubmitImage(){
 ## Customizing the cropper
 The cropper comes with a handful of settings you can customize to change the appearance and performance of cropper
 
+### the crop object inside the image cropper contains all the settings so if you want to change them you have to initialize them after the image cropper was initialized
+##### 'app.component.ts' 
 ```typescript
   this.imageCropper.crop.outlineColor = "rgba(130, 180, 255, 0.9)";
   this.imageCropper.crop.shadeOutColor = 'rgba(0,0,0,0.75)';
   this.imageCropper.crop.isFixedResize = true;
+  
+  //Setting the initial size fixes the ratio of the image cropper if isFixedResize is true
+  this.imageCropper.crop.width = 100;
+  this.imageCropper.crop.height= 500;
 ```
