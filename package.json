@@ -2,7 +2,7 @@
   "name": "ng2-canvas-image-cropper",
   "version": "0.5.0",
   "description": "Angular 2 image cropper ",
-  "main": "image-cropper.module.ts",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/teemozy/ng2-image-cropper/issues"
   },
-  "homepage": "https://github.com/teemozy/ng2-image-cropper#readme"
+  "homepage": "https://github.com/teemozy/ng2-image-cropper#readme",
+  "dependencies": {
+    "@angular/core": "^4.4.4"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "rollup-plugin-angular": "^0.5.3",
+    "rollup-plugin-commonjs": "^8.2.1",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-typescript": "^0.8.1"
+  }
 }
