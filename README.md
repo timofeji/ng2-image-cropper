@@ -58,9 +58,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   imageData: any;
   @ViewChild('imageCropper') imageCropper;
+  
 
-  
-  
   constructor(private backendService: BackendService,
               private elementRef: ElementRef) { 
     this.imageData = {};
@@ -110,7 +109,7 @@ The cropper comes with a handful of settings you can customize to change the app
 ### the crop object inside the image cropper contains all the settings so if you want to change them you have to initialize them after the image cropper was initialized
 ##### 'app.component.ts' 
 ```typescript
-  this.imageCropper.crop.outlineColor = "rgba(130, 180, 255, 0.9)";
+  this.imageCropper.crop.outlineColor = 'rgba(130, 180, 255, 0.9)';
   this.imageCropper.crop.shadeOutColor = 'rgba(0,0,0,0.75)';
   this.imageCropper.crop.isFixedResize = true;
   
