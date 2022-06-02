@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/teemozy/ng2-image-cropper#readme",
   "dependencies": {
-    "@angular/core": "^4.4.4"
+    "@angular/core": "^11.0.5"
   },
   "devDependencies": {
     "node-sass": "^4.5.3",
